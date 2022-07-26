@@ -1,7 +1,9 @@
 from collections import Counter
 
+
 def update_word(word):
-    
+    return 0
+
 
 def split(word):
     return [char for char in word]
@@ -21,7 +23,7 @@ to_remove = 0
 
 initial_ascii = 97
 sequences = res = [word[i: j] for i in range(len(word))
-          for j in range(i + 1, len(word) + 1)]
+                   for j in range(i + 1, len(word) + 1)]
 repe = Counter(sequences)
 
 if n == 1:
@@ -29,12 +31,10 @@ if n == 1:
 else:
     while exist_repetitions(repe):
         word = "a" + word[1:len(word)]
-        sequences = res = [word[i: j] for i in range(len(word))                                      
-                for j in range(i + 1, len(word) + 1)]
+        sequences = res = [word[i: j] for i in range(len(word))
+                           for j in range(i + 1, len(word) + 1)]
 
         repe = Counter(sequences)
-        
 
         print(sequences)
         print(repe)
-
