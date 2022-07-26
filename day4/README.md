@@ -1,6 +1,4 @@
 # Solutions
 
-- A
-- D
+- C
 - H
-- J

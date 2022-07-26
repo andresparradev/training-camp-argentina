@@ -1,6 +1,5 @@
 # Solutions
 
 - A
-- D
-- H
-- J
+- B
+- K
