@@ -4,3 +4,5 @@
 
 - Andrés Parra
 - Alessandro Daniele
+
+Problem solving in total: 22
